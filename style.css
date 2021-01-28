@@ -35,6 +35,10 @@ i {
   width: 500px;
   height: 500px;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .card1 {
