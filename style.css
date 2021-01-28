@@ -50,7 +50,7 @@ i {
 }
 
 .card3 {
-  background-color: gray;
+  background-color: #6974b591;
 }
 
 .left {
@@ -76,6 +76,14 @@ i {
 .fas.fa-angle-left {
   top: 50%;
   transform: translateY(-50%);
+  opacity: 0.5;
+  padding: 1.3rem 2rem;
+}
+
+.fas.fa-angle-left:hover {
+  opacity: 1;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.473);
 }
 
 .fas.fa-angle-right {
@@ -83,4 +91,12 @@ i {
   display: none;
   transform: translateY(-50%);
   top: 50%;
+  opacity: 0.5;
+  padding: 1.3rem 2rem;
+}
+
+.fas.fa-angle-right:hover {
+  opacity: 1;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.473);
 }
